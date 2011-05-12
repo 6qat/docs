@@ -1,4 +1,4 @@
 Very usefull git usage strategy:
 
 http://nvie.com/posts/a-successful-git-branching-model/
-
+http://www.amcomtech.net/client/index.cfm/2010/10/28/Source-Code-Management-with-Multiple-QA-environments-using-Git
