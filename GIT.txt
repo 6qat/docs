@@ -1,0 +1,4 @@
+Very usefull git usage strategy:
+
+http://nvie.com/posts/a-successful-git-branching-model/
+
