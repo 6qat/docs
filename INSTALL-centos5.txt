@@ -1,0 +1,14 @@
+yum groupinstall 'Development Tools'
+
+Instalando o git:
+
+yum install gettext-devel expat-devel curl-devel zlib-devel openssl-devel
+./configure
+make --with-curl --with-expat --with-openssl
+make install
+
+Alterando a particao do ubuntu:
+http://www.linuxquestions.org/questions/slackware-14/dual-boot-slackware-with-centos-using-centos-grub-874480/
+
+dd if=/dev/sda6 of=dev-sda6.img
+

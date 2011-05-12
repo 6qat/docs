@@ -1,0 +1,10 @@
+Reproduce database into test database:
+
+rake db:migrate
+rake db:test:prepare
+
+List routes:
+
+rake routes
+
+

@@ -1,0 +1,15 @@
+rake db:test:prepare
+
+# Preparing database for production
+
+RAILS_ENV=production rake db:migrate
+RAILS_ENV=production rake db:populate #script created by me
+
+
+# MySQL
+
+gem install mysql
+irb
+require "mysql"
+puts Mysql::VERSION
+

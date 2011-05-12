@@ -1,0 +1,4 @@
+Multi-language support:
+
+https://github.com/svenfuchs/rails-i18n/blob/master/rails/locale/pt-BR.yml
+http://guides.rubyonrails.org/i18n.html#setup-the-rails-application-for-internationalization

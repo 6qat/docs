@@ -1,0 +1,4 @@
+yum install libxslt-devel
+yum install mysql-devel
+
+
