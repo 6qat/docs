@@ -5,11 +5,26 @@ rake db:test:prepare
 RAILS_ENV=production rake db:migrate
 RAILS_ENV=production rake db:populate #script created by me
 
-
+==========================================
 # MySQL
 
 gem install mysql
 irb
 require "mysql"
 puts Mysql::VERSION
+
+===========================================
+# RubyGems
+
+gem environment ( gem env )
+gem spec gem_name
+
+gem list --remote
+gem list --local
+
+ruby -rubygems script.rb
+	ou
+export RUBYOPT=rubygems
+ruby script.rb
+
 
