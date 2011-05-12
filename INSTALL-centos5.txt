@@ -12,3 +12,28 @@ http://www.linuxquestions.org/questions/slackware-14/dual-boot-slackware-with-ce
 
 dd if=/dev/sda6 of=dev-sda6.img
 
+==================================================
+Instalador de pacotes:
+python -tt /usr/sbin/pirut
+
+==================================================
+Lista de pacotes disponiveis:
+yum list available "compat*"
+
+==================================================
+Compatibilidade com softwares antigos:
+yum install compat-libstdc++-33
+
+==================================================
+Instalacao do mongodb:
+yum install pcre-devel
+yum install xulrunner-devel
+
+http://library.linode.com/databases/mongodb/centos-5
+
+==================================================
+
+RUBY:
+
+rake routes
+
