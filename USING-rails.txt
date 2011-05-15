@@ -3,8 +3,25 @@ Reproduce database into test database:
 rake db:migrate
 rake db:test:prepare
 
+==============================================
 List routes:
 
 rake routes
 
+==============================================
+Database tool:
+rails dbconsole
+
+==============================================
+Forms:
+form_for implies a resource behind it (creating a user, for example)
+form_tag doesn't imply a resource (creating a session when authenticating)
+
+===============================================
+Flash messages:
+- When redirecting:
+  redirect_to root_url, :notice => "Message!"
+- When rendering:
+  flash.now.alert = "Message!"
+  render "new"
 
