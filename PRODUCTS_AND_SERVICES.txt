@@ -1,0 +1,9 @@
+Project management:
+Pivotal Tracker: http://www.pivotaltracker.com
+
+JS Library:
+Ext JS: www.sencha.com/products/extjs/
+
+User management:
+- Authlogic: http://railscasts.com/episodes/160-authlogic
+- Devise
