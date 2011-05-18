@@ -1,0 +1,3 @@
+Forcing the use of a specific lib:
+LD_PRELOAD=./libstdc++.so.6.0.13 ./Qt_SDK_Lin64_online_v1_1_en.run
+
