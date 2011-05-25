@@ -1,7 +1,11 @@
+==================================================
+Preparação inicial:
+
 yum update
 yum groupinstall 'Development Tools'
+==================================================
 
-Instalando o git:
+Instalando o git (não há pacote do git para o CentOS 5):
 
 yum install gettext-devel expat-devel curl-devel zlib-devel openssl-devel
 ./configure
