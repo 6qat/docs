@@ -7,3 +7,6 @@ Ext JS: www.sencha.com/products/extjs/
 User management:
 - Authlogic: http://railscasts.com/episodes/160-authlogic
 - Devise
+
+JQuery tutorial:
+http://docs.jquery.com/Tutorials:Getting_Started_with_jQuery
