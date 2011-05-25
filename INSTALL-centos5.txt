@@ -8,8 +8,12 @@ yum groupinstall 'Development Tools'
 Instalando o git (não há pacote do git para o CentOS 5):
 
 yum install gettext-devel expat-devel curl-devel zlib-devel openssl-devel
-./configure
-make --with-curl --with-expat --with-openssl
+
+
+wget http://kernel.org/pub/software/scm/git/git-1.7.5.2.tar.bz2
+bzcat git-1.7.5.2.tar.bz2 | tar xvf -
+cd git-1.7.5.2
+./configure --with-curl --with-expat --with-openssl
 make install
 
 ==================================================
