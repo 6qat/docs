@@ -41,3 +41,26 @@ UNINSTALL a specific gem:
 gem uninstall rake -v 0.9
 
 ========================================================
+FORMTASTIC:
+
+
+[guiga@dax-fed ~]$ gem install formtastic
+Fetching: formtastic-1.2.4.gem (100%)
+
+  ========================================================================
+  Thanks for installing Formtastic!
+  ------------------------------------------------------------------------
+  You can now (optionally) run the generator to copy some stylesheets and
+  a config initializer into your application:
+    rails generate formtastic:install # Rails 3
+    ./script/generate formtastic      # Rails 2
+
+  To generate some semantic form markup for your existing models, just run:
+    rails generate formtastic:form MODEL_NAME # Rails 3
+    ./script/generate form MODEL_NAME         # Rails 2
+
+  Find out more and get involved:
+    http://github.com/justinfrench/formtastic
+    http://groups.google.com.au/group/formtastic
+  ========================================================================
+
