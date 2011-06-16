@@ -1,3 +1,8 @@
+Expose your server over the internet:
+
+https://github.com/progrium/localtunnel/
+
+===============================================
 Reproduce database into test database:
 
 rake db:migrate
