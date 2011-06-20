@@ -1,3 +1,9 @@
+Creating a new gemset with RVM:
+
+rvm use 1.9.2@railspre --create
+
+
+================================================
 Expose your server over the internet:
 
 https://github.com/progrium/localtunnel/
