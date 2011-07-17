@@ -1,3 +1,7 @@
+Measuring the time when running tests:
+$ time rspec spec/
+
+================================================
 Creating a new gemset with RVM:
 
 rvm use 1.9.2@railspre --create
