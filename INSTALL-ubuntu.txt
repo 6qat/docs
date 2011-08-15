@@ -26,7 +26,7 @@ sudo apt-get install build-essential bison openssl libreadline5 libreadline5-dev
 ********
 HEROKU:
 $ rvm remove 1.9.2
-$ rvm package install openssl
+$ rvm pkg install openssl
 $ rvm install 1.9.2 -C --with-openssl-dir=$HOME/.rvm/usr
 
 Para fazer um push dos dados locais no Heroku:
