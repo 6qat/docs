@@ -1,0 +1,17 @@
+Show dynamic library dependencies:
+
+otool -L prog_name    (equivalent to ld in Linux)
+
+Show exported symbols:
+
+otool -l prog_name (equivalent to nm in Linux)
+
+
+=======================================================
+
+Dynamic libraries search path:
+
+DYLD_LIBRARY_PATH (equivalent to LD_LIBRARY_PATH in Linux)
+
+=======================================================
+
