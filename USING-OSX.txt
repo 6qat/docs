@@ -15,3 +15,6 @@ DYLD_LIBRARY_PATH (equivalent to LD_LIBRARY_PATH in Linux)
 
 =======================================================
 
+Excellent text about dynamic libs on OSX:
+
+http://blogs.oracle.com/dipol/entry/dynamic_libraries_rpath_and_mac
