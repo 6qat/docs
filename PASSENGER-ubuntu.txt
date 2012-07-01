@@ -1,3 +1,20 @@
+http://www.modrails.com/install.html
+
+
+Open a terminal, and type:
+gem install passenger
+Type:
+passenger-install-apache2-module
+Or, if you want to install the Nginx version instead:
+passenger-install-nginx-module
+And follow the instructions.
+Or, for the standalone version, type:
+
+cd /path/to/your/webapp
+passenger start
+If you encounter any problems, please read the Users guide (Apache)/Users guide (Nginx)/Users guide (Standalone) for troubleshooting tips and/or try the tarball below.
+
+
 Nginx with Passenger support was successfully installed.
 
 The Nginx configuration file (/home/guiga/local/nginx/conf/nginx.conf)
