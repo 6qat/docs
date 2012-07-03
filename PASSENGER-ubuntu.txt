@@ -14,6 +14,12 @@ cd /path/to/your/webapp
 passenger start
 If you encounter any problems, please read the Users guide (Apache)/Users guide (Nginx)/Users guide (Standalone) for troubleshooting tips and/or try the tarball below.
 
+# Configurar o Ubuntu:
+curl -L http://bit.ly/nginx-ubuntu-init-file > /etc/init.d/nginx
+chmod +x /etc/init.d/nginx
+update-rc.d nginx defaults
+/etc/init.d/nginx start
+
 
 Nginx with Passenger support was successfully installed.
 
